@@ -23,6 +23,11 @@ setup(name='morphtransformkun',
       author='Gaurav Ankalagi',
       license='MIT',
       packages=setuptools.find_packages(exclude=['tests']),
+      include_package_data=True,
+      package_data={
+          'morphtransformkun': ['morphtransformkun']
+      },
+
       zip_safe=False,
       install_requires=[ 
           "opencv-python>=4.1.2",
