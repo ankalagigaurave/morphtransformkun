@@ -17,7 +17,7 @@ def readme():
 
 
 setup(name='morphtransformkun',
-      version='0.0.5',
+      version='0.0.6',
       description='A python package for morphological transformations on image',
       url='https://github.com/ankalagigaurave/morphtransformkun-Package',
       author='Gaurav Ankalagi',
