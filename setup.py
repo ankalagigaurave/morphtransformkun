@@ -17,7 +17,7 @@ def readme():
 
 
 setup(name='morphtransformkun',
-      version='0.0.1',
+      version='0.0.3',
       description='A python package for morphological transformations on image',
       url='https://github.com/ankalagigaurave/morphtransformkun-Package',
       author='Gaurav Ankalagi',
@@ -29,7 +29,7 @@ setup(name='morphtransformkun',
       packages=setuptools.find_packages(exclude=['tests']),
       zip_safe=False,
       install_requires=[ 
-          "cv2>=4.1.2",
+          "opencv-python>=4.1.2",
           "numpy>=1.19.1
       ]
       )
