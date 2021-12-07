@@ -19,7 +19,7 @@ def readme():
 setup(name='morphtransformkun',
       version='0.0.1',
       description='A python package for morphological transformations on image',
-      url='https://github.com/ParishaKB/MirrorballPackage',
+      url='https://github.com/ankalagigaurave/morphtransformkun-Package',
       author='Gaurav Ankalagi',
       license='MIT',
       include_package_data=True,
