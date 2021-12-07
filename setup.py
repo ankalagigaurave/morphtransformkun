@@ -29,7 +29,7 @@ setup(name='morphtransformkun',
       packages=setuptools.find_packages(exclude=['tests']),
       zip_safe=False,
       install_requires=[ 
-          "cv2>=4.1.0",
+          "cv2>=4.1.2",
           "numpy>=1.19.1
       ]
       )
