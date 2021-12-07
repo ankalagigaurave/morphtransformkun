@@ -22,10 +22,6 @@ setup(name='morphtransformkun',
       url='https://github.com/ankalagigaurave/morphtransformkun-Package',
       author='Gaurav Ankalagi',
       license='MIT',
-      include_package_data=True,
-      package_data={
-          'morphtransformkun': ['morphtransformkun']
-      },
       packages=setuptools.find_packages(exclude=['tests']),
       zip_safe=False,
       install_requires=[ 
