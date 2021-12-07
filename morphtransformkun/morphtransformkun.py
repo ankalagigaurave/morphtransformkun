@@ -25,12 +25,12 @@ def dilation(img,kernel_size,iteration):
 def opening(img,kernel_size,iteration):
   img = img
   kernel = np.ones((kernel_size,kernel_size),np.uint8)
-  opening = cv2.morphologyEx(img, cv.MORPH_OPEN, kernel)
+  opening = cv2.morphologyEx(img, cv2.MORPH_OPEN, kernel)
   return opening
 
 def closing(img,kernel_size,iteration):
   img = img
   kernel = np.ones((kernel_size,kernel_size),np.uint8)
-  closing = cv2.morphologyEx(img, cv.MORPH_CLOSE, kernel)
+  closing = cv2.morphologyEx(img, cv2.MORPH_CLOSE, kernel)
   return closing
 
