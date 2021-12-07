@@ -17,16 +17,13 @@ def readme():
 
 
 setup(name='morphtransformkun',
-      version='0.0.6',
+      version='0.0.7',
       description='A python package for morphological transformations on image',
       url='https://github.com/ankalagigaurave/morphtransformkun-Package',
       author='Gaurav Ankalagi',
       license='MIT',
       packages=setuptools.find_packages(exclude=['tests']),
-      include_package_data=True,
-      package_data={
-          'morphtransformkun': ['morphtransformkun']
-      },
+      packages=['morphtransformkun'],
 
       zip_safe=False,
       install_requires=[ 
