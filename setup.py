@@ -26,6 +26,6 @@ setup(name='morphtransformkun',
       zip_safe=False,
       install_requires=[ 
           "opencv-python>=4.1.2",
-          "numpy>=1.19.1
+          "numpy>=1.19.1"
       ]
       )
